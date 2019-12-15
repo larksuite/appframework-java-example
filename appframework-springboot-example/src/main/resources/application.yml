@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: example
+
+server:
+  port: 7070
+
+larksuite:
+  appframework:
+    feishu: true
+    notify:
+      basePath: /notify
+    apps[0]:
+      appShortName: echoRobotIsv
+      appId: cli_xxx
+      appSecret: xxxxxxxxxxxx
+      encryptKey: xxxxxxxxxxxx
+      verificationToken: xxxxxxxxxxxx
+      isIsv: false
+    apps[1]:
+      appShortName: echoRobotInternal
+      appId: cli_xxx
+      appSecret: xxxxxxxxxxxx
+      encryptKey:
+      verificationToken:
+      isIsv: false
